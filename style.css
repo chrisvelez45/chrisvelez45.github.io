@@ -1,0 +1,132 @@
+.UAGM-Logo{
+    display: flex;
+    justify-content: center;
+    background-color: #b1b1b169;
+    width: 100%;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: .35%;
+    
+}
+
+.nav a::after{
+    content: "|";
+    padding-left: 1em;
+    padding-right: 1em;
+    color: black;
+}
+
+.calendar, .unirte{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+    letter-spacing: 0;
+}
+
+body{
+    background-image: url(https://uagm.edu/themes/custom/uagm_theme/images/curve-shape-homepage.svg);
+}
+
+.video-banner{
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    height: 19vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: .40%;
+}
+
+.text{
+    background: url(almamater.gif);
+    background-size: 400px 150px;
+    font-size: 200px;
+    font-family: 'Raleway',sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #0000005d, 0 0 20px #01010159, 0 0 rgba(0, 0, 0, 0.464)60073, 0 0 40px #0000007f, 0 0 50px #00000086, 0 0 60px #0000007d, 0 0 70px #09020574;
+      }
+      to {
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.399), 0 0 5px rgba(215, 18, 41, 0.158), 0 0 10px rgba(215, 18, 41, 0.158), 0 0 20px rgba(215, 18, 41, 0.158), 0 0 30px rgba(215, 18, 41, 0.152), 0 0 40px rgba(215, 18, 41, 0.158), 0 0 50px rgba(215, 18, 41, 0.152);
+    }
+}
+.Associations{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 300px;;
+    object-fit: cover;
+    background-color: rgba(215, 18, 41, 0.948);
+    background-position: center;
+    padding: .5rem;
+    width: auto;
+    margin-bottom: .50%;
+    box-shadow: 2px 1px 15px rgb(0, 0, 0);
+}
+
+.Associations header{
+    background: url(https://uagm.edu/themes/custom/uagm_theme/images/uagm-isotipo-red3.svg) no-repeat center;
+    background-size: 70px;
+    text-align: center;
+    display: block;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0) !important;
+}
+
+.Associations h4{
+    color: white;
+    font-size: 1.575rem;
+    font-weight: normal;
+}
+
+.Associations-sec1{
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: .60%;
+    border-radius: 300px;;
+    background-color: rgba(215, 18, 41, 0.948);
+    width:70%;
+    box-shadow: 2px 1px 15px rgb(0, 0, 0);
+    position: relative;
+    transition: .4s;
+}
+
+.Associations-sec1:hover{
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+.Associations-sec1 h4{
+    color: white;
+    font-size: 1.575rem;
+    font-weight: normal;
+}
+
+.Associations-sec1 img{
+    border-radius: 300px;
+    display:flex;
+    box-shadow: 2px 1px 25px rgb(0, 0, 0);
+    transition: .6s;
+}
+
+.Associations-sec1 img:hover{
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.Associations-sec1 section{
+    position: absolute;
+    text-align: center;
+    display: block;
+    height: auto;
+    width: 100%;
+}
