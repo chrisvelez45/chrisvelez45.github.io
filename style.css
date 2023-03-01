@@ -1,3 +1,12 @@
+html{
+    height: 100%;
+    margin: auto;
+    width: 1300px;
+    background: url(https://uagm.edu/themes/custom/uagm_theme/images/curve-shape-homepage.svg) no-repeat center;
+    background-attachment: scroll;
+    background-position-y: 118px;
+}
+
 .UAGM-Logo{
     display: flex;
     justify-content: center;
@@ -35,11 +44,11 @@
 }
 
 body{
-    background-image: url(https://uagm.edu/themes/custom/uagm_theme/images/curve-shape-homepage.svg);
-    min-width:850px;
-    min-height: 900px;
+    
+    min-width:600px;
+    min-height: 800px;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .video-banner{
