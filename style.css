@@ -16,6 +16,15 @@
     color: black;
 }
 
+.nav{
+    display:inline-block;
+    justify-content: center;
+    min-width:700px;
+    min-height:50px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .calendar, .unirte{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,11 +36,17 @@
 
 body{
     background-image: url(https://uagm.edu/themes/custom/uagm_theme/images/curve-shape-homepage.svg);
+    min-width:850px;
+    min-height: 900px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .video-banner{
     display:flex;
     justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .container{
@@ -67,7 +82,7 @@ body{
     object-fit: cover;
     background-color: rgba(215, 18, 41, 0.948);
     background-position: center;
-    padding: .5rem;
+    padding: .1rem;
     width: auto;
     margin-bottom: .50%;
     box-shadow: 2px 1px 15px rgb(0, 0, 0);
@@ -75,10 +90,11 @@ body{
 
 .Associations header{
     background: url(https://uagm.edu/themes/custom/uagm_theme/images/uagm-isotipo-red3.svg) no-repeat center;
-    background-size: 70px;
+    background-size: 90px;
     text-align: center;
     display: block;
     box-shadow: 0px 0px 0px rgb(0, 0, 0) !important;
+    margin: auto;
 }
 
 .Associations h4{
@@ -129,4 +145,47 @@ body{
     display: block;
     height: auto;
     width: 100%;
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
 }
