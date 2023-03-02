@@ -1,7 +1,7 @@
 html{
     height: 100%;
     margin: auto;
-    width: 1300px;
+    width: 1200px;
     background: url(https://uagm.edu/themes/custom/uagm_theme/images/curve-shape-homepage.svg) no-repeat center;
     background-attachment: scroll;
     background-position-y: 118px;
@@ -10,8 +10,7 @@ html{
 .UAGM-Logo{
     display: flex;
     justify-content: center;
-    background-color: #b1b1b169;
-    width: 100%;
+    background-color: #ECECEC;
     letter-spacing: 1px;
     font-family: 'Source Sans Pro', sans-serif;
     margin-bottom: .35%;
@@ -153,24 +152,24 @@ body{
     text-align: center;
     display: block;
     height: auto;
-    width: 100%;
+    width: 820px;
 }
 
-/* ----------- Galaxy S6 ----------- */
+/* ----------- Galaxy S22 ----------- */
 
 /* Portrait and Landscape */
 @media screen 
   and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) {
+  and (device-height: 780px) 
+  and (-webkit-device-pixel-ratio: 3) {
 
 }
 
 /* Portrait */
 @media screen 
   and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
+  and (device-height: 780px) 
+  and (-webkit-device-pixel-ratio: 3) 
   and (orientation: portrait) {
 
 }
@@ -178,8 +177,8 @@ body{
 /* Landscape */
 @media screen 
   and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
+  and (device-height: 780px) 
+  and (-webkit-device-pixel-ratio: 3) 
   and (orientation: landscape) {
 
 }
@@ -188,13 +187,13 @@ body{
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 }
 
 /* ----------- Retina Screens ----------- */
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
+  and (-webkit-min-device-pixel-ratio: 3)
   and (min-resolution: 192dpi) { 
 }
