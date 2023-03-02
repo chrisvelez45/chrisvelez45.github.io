@@ -1,0 +1,25 @@
+.intro {
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    max-width: 584px;
+    margin: auto;
+    box-shadow: 2px 1px 15px rgb(0, 0, 0);
+}
+ 
+
+  .form-control {
+    max-width: 555px;
+  }
+  
+  @media (min-height: 300px) and (max-height: 450px) {
+    .intro {
+      height: auto;
+    }
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #DA1F32 !important;
+    border-color: transparent !important;
+}
