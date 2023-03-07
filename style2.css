@@ -147,21 +147,25 @@ body {
     height: 450px;
 }
 
+.thirdrow{
+    height: 450px;
+}
+
 .imgEngineering:hover{
-    -webkit-transform: scale(1.20);
-    transform: scale(1.20);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
     transition: .7s;
 }
 
 .imgChemistry:hover{
-    -webkit-transform: scale(1.20);
-    transform: scale(1.20);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
     transition: .7s;
 }
 
 .imgBiology:hover{
-    -webkit-transform: scale(1.20);
-    transform: scale(1.20);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
     transition: .7s;
 }
 
