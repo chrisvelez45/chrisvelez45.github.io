@@ -159,6 +159,10 @@ body {
     transition: .7s;
 }
 
+.my-auto{
+    width=0;
+}
+
 
 @-webkit-keyframes glow {
     from {
