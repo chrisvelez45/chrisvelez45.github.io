@@ -135,18 +135,29 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-.container-fluid .row{
-    padding-bottom: 100px;
-    padding-top: 25px;
-    
+.break-text{
+    word-wrap: break-word;
 }
 
 .firstrow{
-  
-    border-radius: 30px;
+    height: 450px;
 }
 
+.secondrow{
+    height: 450px;
+}
 
+.imgEngineering:hover{
+    -webkit-transform: scale(1.10);
+    transform: scale(1.10);
+    transition: .7s;
+}
+
+.imgChemistry:hover{
+    -webkit-transform: scale(1.10);
+    transform: scale(1.10);
+    transition: .7s;
+}
 
 
 @-webkit-keyframes glow {
