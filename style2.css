@@ -81,7 +81,7 @@ body {
     display: grid;;
     justify-content: space-evenly;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 .bd-placeholder-img {
@@ -161,6 +161,11 @@ body {
 
 .my-auto{
     width: 0;
+}
+
+h4{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
 }
 
 
